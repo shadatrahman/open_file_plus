@@ -1,4 +1,4 @@
-#import "OpenFilePlugin.h"
+#import "./include/open_file_safe_plus/OpenFilePlugin.h"
 
 @interface OpenFilePlugin ()<UIDocumentInteractionControllerDelegate>
 @end

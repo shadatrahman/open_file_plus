@@ -12,8 +12,8 @@ A new Flutter project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'open_file_safe_plus/Sources/open_file_safe_plus/**/*.{h,m}'
+  s.public_header_files = 'open_file_safe_plus/Sources/open_file_safe_plus/include/**/*.h'
   s.dependency 'Flutter'
   
   s.ios.deployment_target = '8.0'

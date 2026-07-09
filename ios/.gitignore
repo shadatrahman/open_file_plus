@@ -14,6 +14,9 @@ GeneratedPluginRegistrant.m
 
 .generated/
 
+.build/
+Package.resolved
+
 *.pbxuser
 *.mode1v3
 *.mode2v3
