@@ -1,11 +1,19 @@
 import 'dart:async';
+import 'dart:js_interop';
 
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html';
+@JS('window.resolveLocalFileSystemURL')
+external void _resolveLocalFileSystemUrl(
+  String url,
+  JSFunction successCallback,
+  JSFunction errorCallback,
+);
 
-Future<bool> open(String uri) async {
-  return window
-      .resolveLocalFileSystemUrl(uri)
-      .then((_) => true)
-      .catchError((e) => false);
+Future<bool> open(String uri) {
+  final completer = Completer<bool>();
+  _resolveLocalFileSystemUrl(
+    uri,
+    ((JSAny entry) => completer.complete(true)).toJS,
+    ((JSAny error) => completer.complete(false)).toJS,
+  );
+  return completer.future;
 }

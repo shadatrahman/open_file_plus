@@ -24,7 +24,7 @@ class OpenFileSafePlus {
     assert(filePath != null);
     if (!Platform.isIOS && !Platform.isAndroid) {
       int _result;
-      var _windowsResult;
+      int _windowsResult = 0;
       if (Platform.isMacOS) {
         _result = mac.system(['open', '$filePath']);
       } else if (Platform.isLinux) {
