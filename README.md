@@ -30,7 +30,7 @@ Open local files with the platform's native viewer/app, from Flutter. Successor 
 
 ```yaml
 dependencies:
-  open_file_safe_plus: ^0.0.6
+  open_file_safe_plus: ^0.0.7
 ```
 
 ## Usage

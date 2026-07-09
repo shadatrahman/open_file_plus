@@ -1,6 +1,6 @@
 name: open_file_safe_plus
 description: A plug-in that can call native APP to open files with string result in flutter, support iOS(UTI) / android(intent) / PC(ffi) / web(dart:html)
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/mdshadatrahman/open_file_plus
 
 dependencies:

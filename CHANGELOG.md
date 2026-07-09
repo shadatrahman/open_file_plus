@@ -1,3 +1,10 @@
+## 0.0.7
+* Add Swift Package Manager (SPM) support for iOS (fixes #6)
+* Add example app
+* Fix: web build was broken (class name mismatch in web implementation)
+* Fix static analysis warnings (uninitialized var type, deprecated dart:html)
+* Update: README.md
+
 ## 0.0.6
 * Flutter v3.29 compatible
 
