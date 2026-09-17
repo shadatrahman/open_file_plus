@@ -1,15 +1,21 @@
 PODS:
   - Flutter (1.0.0)
+  - open_file_safe_plus (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - open_file_safe_plus (from `.symlinks/plugins/open_file_safe_plus/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  open_file_safe_plus:
+    :path: ".symlinks/plugins/open_file_safe_plus/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  open_file_safe_plus: 5b54acd407cfe3b7db19fa4704be4a963b563a4a
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 
