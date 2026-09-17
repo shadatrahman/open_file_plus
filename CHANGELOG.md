@@ -1,3 +1,8 @@
+## 0.0.8
+* Fix: iOS `open()` hanging and never presenting with the UIScene lifecycle (fixes #8)
+* Fix: iOS `open()` now returns `noAppToOpen` instead of hanging when nothing can be presented
+* Migrate example app to UIScene lifecycle
+
 ## 0.0.7
 * Add Swift Package Manager (SPM) support for iOS (fixes #6)
 * Add example app
